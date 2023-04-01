@@ -9,7 +9,7 @@ function Home(props: any) {
     <>
       <div>
         <Layout />
-        <TopBanner saying="This Website will list out Joel's favorite movies" />
+        <TopBanner saying="Welcome! This Website will list out Joel's favorite movies" />
       </div>
     </>
   );

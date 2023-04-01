@@ -12,10 +12,11 @@ function FullMovieList() {
       <div>
         <Layout />
         <div>
-          <h3>Joel Hilton's Full Movie Collection</h3>
+          <h1 className="text-center">Joel Hilton's Full Movie Collection</h1>
+          <br></br>
         </div>
-        <div>
-          <table className="table align-self-center">
+        <div className="container text-center">
+          <table className="table align-self-center table-striped">
             <thead>
               <tr>
                 <th>Title</th>
