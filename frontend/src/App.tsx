@@ -1,14 +1,12 @@
 import React from 'react';
-// import logo from './logo.svg';
-// import {UseState} from 'react';
 import './App.css';
 import FullMovieList from './pages/MovieCollection';
 import Home from './pages/Home';
-// import MovieList from './Movies';
 import Bacon from './pages/Podcasts';
 import Layout from './pages/Layout';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import Clock from './Clock';
+
+// App.tsx page that brings all the functions together and creates the paths for navigation
 
 function App() {
   return (

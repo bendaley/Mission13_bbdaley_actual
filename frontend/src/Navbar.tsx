@@ -1,7 +1,8 @@
 import React from 'react';
-// import { BrowserRouter, Link } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+
+// function to create the navigation bar displayed at the top of every page
 
 function Navbar() {
   return (

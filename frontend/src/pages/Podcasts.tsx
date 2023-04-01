@@ -1,11 +1,10 @@
 import React from 'react';
-// import styles from './Home.module.css';
 import Layout from './Layout';
 
+// function to create the button that links to the baconsale website. The page also includes a header
+
 function Bacon(props: any) {
-  // function TopBanner({ saying }: any) {
   return (
-    // <React.Fragment>
     <>
       <div className="text-center">
         <Layout />
@@ -19,14 +18,10 @@ function Bacon(props: any) {
             >
               Visit Bacon Sale Podcast
             </a>
-
-            {/* <h1 className={styles.h1}>{props.saying}</h1> */}
-            {/* <h1 className={styles.h1}>{saying}</h1>*/}
           </div>
         </div>
       </div>
     </>
-    // </React.Fragment>
   );
 }
 

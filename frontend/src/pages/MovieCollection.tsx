@@ -1,12 +1,11 @@
-// import { useState } from 'react';
 import data from '../MovieData.json';
 import Layout from './Layout';
+
+// function to display all of the movies in Joel's collection
 
 const mds = data.MovieDataList;
 
 function FullMovieList() {
-  // const [listOfMovies, setListOfMovies] = useState(mds);
-
   return (
     <>
       <div>
